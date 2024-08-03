@@ -7,7 +7,7 @@
 Vue.component("purple_header_component_1722706928", {
     template: `
     <header class="w-full z-30" id="header-section-container">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 bg-white bg-opacity-80 bg-[url('images/toilet-paper-bg.jpg')] bg-cover bg-center">
             <div class="flex items-center justify-between h-16 md:h-20">
     
                 <div id="site-branding" class="flex-1"><a id="logo-link" class="inline-flex" href="index.html" aria-label="Cruip"><img id="logo-image" class="max-w-none" src="./images/logo.svg" width="38" height="38" alt="Stellar"></a></div>
@@ -59,11 +59,11 @@ Vue.component("purple_header_component_1722706928", {
             return {
                 expanded: false, 
                 tab: null,
-                textStylePrimary: 'text-slate-300',
-                hoverTextStylePrimary: 'hover:text-white',
-                signUpButtonText: "text-slate-300",
-                signUpButtonHover: "hover:text-white",
-                signUpButtonGradient: "[background:linear-gradient(theme(colors.slate.900),_theme(colors.slate.900))_padding-box,_conic-gradient(theme(colors.slate.400),_theme(colors.slate.700)_25%,_theme(colors.slate.700)_75%,_theme(colors.slate.400)_100%)_border-box]",
+                textStylePrimary: 'text-gray-800',
+                hoverTextStylePrimary: 'hover:text-purple-600',
+                signUpButtonText: "text-gray-800",
+                signUpButtonHover: "hover:text-purple-600",
+                signUpButtonGradient: "bg-white bg-opacity-80 border-2 border-purple-500",
                 signUpButtonArrow: "text-purple-500",
             };
         },
