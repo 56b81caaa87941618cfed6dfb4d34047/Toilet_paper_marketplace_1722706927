@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_acknowledge",
+        "content": "Got it, will change the background to toilet paper video game theme.",
+        "message_id": "guest03082024174253",
+        "timestamp": "03082024174253",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "user",
         "content": "change the background to be toilet paper video game themed",
         "message_id": "guest03082024174253",

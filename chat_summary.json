@@ -12,5 +12,11 @@
         "content": "change the background to be toilet paper video game themed",
         "timestamp": "03082024174253",
         "message_id": "guest03082024174253"
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Got it, will change the background to toilet paper video game theme.",
+        "timestamp": "03082024174253",
+        "message_id": "guest03082024174253"
     }
 ]
